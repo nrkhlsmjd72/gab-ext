@@ -58,7 +58,7 @@ class Mahasiswa extends Server {
         $data["jurusan"],base64_encode($data["npm"]));
         // jika data mahasiswa tidak ditemukan
         if  ($hasil == 0){
-            $this->response(array("status"=>"Data Berhasil Disimpan"));
+            $this->response(array("status"=>"Data Berhasil Disimpan ..."));
         }
         // jika data mahasiswa gagal dihapus
         else
